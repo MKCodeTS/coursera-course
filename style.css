@@ -1,0 +1,84 @@
+/**** Base style *****/
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 175%;
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 100%;
+    border: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+} 
+
+.menu {
+    border: 2px solid black;
+    margin: 5px;
+    background-color: #8e8e8e;
+}
+
+.menu-title {
+    float: right;
+    text-align: center;
+    font-size: 120%;
+    border: 2px solid black;
+    width: 30%;
+}
+
+.text {
+    margin: 10px;
+    margin-top: 40px;
+    clear: both;
+}
+
+#chicken{background-color: pink;}
+#beef{background-color: red;}
+#sushi{background-color: yellowgreen;}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        background-color: white;
+        width: 33.3%;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width:992px){
+    .col-md-6  , .col-md-12 {
+        float: left;
+        background-color: white;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:767px) {
+    .col-sm-12{
+    float:left;
+    background-color: white;
+    width: 100%;}
+}
+
